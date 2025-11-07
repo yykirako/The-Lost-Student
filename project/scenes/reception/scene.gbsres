@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
+  "_index": 0,
+  "name": "Reception",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 168,
+  "y": 120,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
