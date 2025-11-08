@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "placeholder.png",
-  "tileColors": "005+014+0010+01!00!012+00f+014+0011+018+00c+01!0013+01!0013+01!0013+01!00d6+",
+  "tileColors": "",
   "autoColor": false
 }
