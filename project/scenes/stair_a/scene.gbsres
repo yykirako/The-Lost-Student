@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "046aa672-3c81-46dd-beb4-e50ba30c2279",
+  "_index": 22,
+  "name": "Stair_A",
+  "backgroundId": "25110b57-eb39-4854-b60e-00ad96745cee",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 824,
+  "y": 432,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -2,14 +2,14 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "bdf3a0ad-92b7-4280-af9d-c6b874de7f51__L0",
-      "name": "HaveLookedAtTheWebsite",
-      "symbol": "var_havelookedatthewebsite"
-    },
-    {
       "id": "11",
       "name": "Key_1",
       "symbol": "var_key_1"
+    },
+    {
+      "id": "bdf3a0ad-92b7-4280-af9d-c6b874de7f51__L0",
+      "name": "HaveLookedAtTheWebsite",
+      "symbol": "var_havelookedatthewebsite"
     }
   ]
 }
