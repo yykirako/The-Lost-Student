@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "130226bb-5abf-423d-917f-48101e91dcbf",
+  "name": "id_sprite",
+  "symbol": "tileset_id_sprite",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "id_sprite.png"
+}

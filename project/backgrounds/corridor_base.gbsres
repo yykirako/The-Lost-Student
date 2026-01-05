@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f4224f98-c5da-4a90-8235-9ab4b01dd0b2",
+  "name": "corridor base",
+  "symbol": "bg_corridor_base",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "corridor base.png",
+  "tileColors": ""
+}

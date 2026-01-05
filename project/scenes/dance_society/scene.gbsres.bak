@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "65813b3f-1501-400c-907d-5c2a3fc3aa9e",
+  "_index": 24,
+  "name": "Dance_Society",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 1040,
+  "y": 416,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

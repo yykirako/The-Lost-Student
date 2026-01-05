@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "41c1afad-74a8-4290-a1d4-fe1b05f3c6db",
+  "name": "lock_sprite",
+  "symbol": "tileset_lock_sprite",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "lock_sprite.png"
+}

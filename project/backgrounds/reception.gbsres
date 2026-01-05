@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "49479207-e4ba-4752-80c1-2563fce7362b",
+  "name": "reception",
+  "symbol": "bg_reception",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "reception.png",
+  "tileColors": ""
+}

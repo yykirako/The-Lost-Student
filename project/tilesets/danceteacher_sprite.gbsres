@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "2abaf511-0108-43df-9ec0-7fb6ed3951bf",
+  "name": "danceteacher_sprite",
+  "symbol": "tileset_danceteacher_sprite",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "danceteacher_sprite.png"
+}

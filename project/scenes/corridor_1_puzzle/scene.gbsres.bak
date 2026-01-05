@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "6dff9ec3-3764-4142-a63b-c6c1c02f14fc",
+  "_index": 3,
+  "name": "Corridor_1_puzzle",
+  "backgroundId": "25110b57-eb39-4854-b60e-00ad96745cee",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 600,
+  "y": 584,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

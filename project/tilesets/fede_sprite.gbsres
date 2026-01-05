@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c06cf478-ddf2-4fdc-b834-85710cc9e6c4",
+  "name": "fede_sprite",
+  "symbol": "tileset_fede_sprite",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "fede_sprite.png"
+}

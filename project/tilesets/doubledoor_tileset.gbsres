@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "25585da2-66ed-4eb1-afcd-fe7c510f1ac6",
+  "name": "Doubledoor_tileset",
+  "symbol": "tileset_doubledoor_tileset",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "Doubledoor_tileset.png"
+}

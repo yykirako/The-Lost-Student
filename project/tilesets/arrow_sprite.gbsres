@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "fac7c441-f8a8-46be-8e8c-86cbbd360221",
+  "name": "arrow_sprite",
+  "symbol": "tileset_arrow_sprite",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "arrow_sprite.png"
+}

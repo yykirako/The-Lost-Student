@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "895d71a7-334b-4518-aa87-fe9c20a8e324",
+  "name": "corridor-fp_tileset",
+  "symbol": "tileset_corridor_fp_tileset",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "corridor-fp_tileset.png"
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6f5984e4-a2f9-4496-8f53-8d8f29e76c74",
+  "name": "wall background2",
+  "symbol": "bg_wall_background2",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "wall background2.png",
+  "tileColors": ""
+}

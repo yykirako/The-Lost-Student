@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "246772c8-b529-4223-9af3-b96d5a808af4",
+  "name": "signs_tileset",
+  "symbol": "tileset_signs_tileset",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "signs_tileset.png"
+}

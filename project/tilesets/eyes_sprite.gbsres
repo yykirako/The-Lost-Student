@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "ba124b6b-1ce3-470f-b7d5-69c9303351be",
+  "name": "eyes_sprite",
+  "symbol": "tileset_eyes_sprite",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "eyes_sprite.png"
+}
