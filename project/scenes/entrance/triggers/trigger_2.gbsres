@@ -3,12 +3,12 @@
   "id": "65f145a7-1687-4b05-ae01-741f2fe9dfa4",
   "name": "",
   "prefabId": "",
-  "x": 19,
+  "x": 31,
   "y": 1,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 16,
+  "height": 30,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",

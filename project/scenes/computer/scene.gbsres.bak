@@ -1,0 +1,167 @@
+{
+  "_resourceType": "scene",
+  "id": "a0a2e1df-0523-45b8-bdf3-9c7c7f3e91a6",
+  "_index": 28,
+  "name": "Computer",
+  "backgroundId": "d01bd1ba-0ab0-47a3-a0f6-49ebd1d61738",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_29",
+  "x": 922.0663566364958,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "__collapse": true
+      },
+      "id": "0f287967-f06b-4987-8540-55b6ae47cb51"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
+      },
+      "id": "4b9423bd-e40d-4c43-8b35-d348f6282253"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L1",
+              "__collapse": false
+            },
+            "id": "cb92bd66-c166-4517-b61d-b65d61be4868"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "score:\n$L1$\n",
+              "x": 1,
+              "y": 1,
+              "location": "background",
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "74e3197d-cd7c-408a-92e5-55342ea66713"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "243be3fe-ba69-4e81-b364-4f17c351aa0e"
+          }
+        ]
+      },
+      "id": "6035e74b-c690-43c3-a7e4-1db39b12be0c"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "__collapse": false
+      },
+      "id": "64ae1037-ff01-4d83-8f91-654673f8896b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You scored $L1$ pts\nGood short break.\nnow find ur class!"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 3,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "08b7b30c-9a41-41a3-bf1f-7505f7567ff8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0,
+        "frames": 30,
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "cafd2792-5955-47e4-b0da-42047b2bd661"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "573b0ab0-0c19-448c-bb68-1957f2dc1477"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "084f371f-8310-4594-8a8a-402189edec32",
+  "autoFadeEventCollapse": false
+}

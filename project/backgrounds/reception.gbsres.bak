@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "034f4ca5-c325-413d-8e15-c3696fe7e4c4",
+  "id": "8568c268-64d5-4743-8531-073aff7f3c5d",
   "name": "reception",
   "symbol": "bg_reception",
   "width": 40,
@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 144,
   "filename": "reception.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

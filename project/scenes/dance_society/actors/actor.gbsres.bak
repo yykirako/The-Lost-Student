@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "6f1c5e41-8142-4d17-be7c-4c6a7483a410",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -16,6 +16,62 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
   "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "11"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You already got your ID. What are you doing here?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "602f352c-9543-4e8e-a249-e8d5265f16df"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "6a80940d-9c58-40c2-af1e-407f97ef6fad"
+            },
+            "id": "5d15267e-aaa7-465a-89a8-d0f6d13544ad"
+          }
+        ],
+        "false": []
+      },
+      "id": "c24c12ed-c3b9-4bbb-89d9-9ac894b982f0"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -39,7 +95,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "98d898f1-590b-463d-8c88-c9dc3d15bb28"
     },
@@ -62,7 +118,8 @@
         "y": {
           "type": "number",
           "value": 10
-        }
+        },
+        "__collapse": true
       },
       "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
     },
@@ -72,9 +129,9 @@
         "variable": "T0",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 20
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "e016e34f-dd50-435c-8148-6b969070e26a"
     },
@@ -82,16 +139,17 @@
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
-          "type": "lt",
+          "type": "gte",
           "valueA": {
             "type": "variable",
             "value": "T0"
           },
           "valueB": {
             "type": "number",
-            "value": 100
+            "value": 0
           }
-        }
+        },
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -182,14 +240,14 @@
                   "command": "EVENT_VARIABLE_MATH",
                   "args": {
                     "vectorX": "T0",
-                    "operation": "add",
+                    "operation": "sub",
                     "other": "val",
                     "vectorY": "L0",
                     "value": 1,
                     "minValue": "0",
                     "maxValue": "32767",
                     "clamp": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "1c193947-e476-4f8e-9eed-5528b38129c5"
                 }
@@ -205,7 +263,8 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true
       },
       "id": "76555478-6fc9-4008-b90c-e7db2bdbe574"
     },
@@ -230,7 +289,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
     },
@@ -257,7 +317,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 8,
-  "y": 8,
+  "x": 10,
+  "y": 13,
   "_index": 0
 }

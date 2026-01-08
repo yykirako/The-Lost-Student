@@ -8,7 +8,7 @@
   "symbol": "trigger_3",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 16,
+  "height": 30,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",

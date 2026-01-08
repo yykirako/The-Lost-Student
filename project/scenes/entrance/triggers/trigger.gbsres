@@ -4,10 +4,10 @@
   "name": "",
   "prefabId": "",
   "x": 1,
-  "y": 17,
+  "y": 31,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
-  "width": 18,
+  "width": 30,
   "height": 1,
   "script": [
     {

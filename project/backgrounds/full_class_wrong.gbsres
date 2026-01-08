@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "c42913ff-8eb4-483e-83b7-b14bfe9aaecb",
+  "id": "5b9a42f8-f193-48c7-b988-ef1d3002cd5c",
   "name": "full class wrong",
   "symbol": "bg_full_class_wrong",
   "width": 20,
@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "full class wrong.png",
-  "tileColors": "",
+  "tileColors": "00aa+01!00bd+",
   "autoColor": false
 }
