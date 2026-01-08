@@ -2,7 +2,11 @@
   "_resourceType": "settings",
   "worldScrollX": 0,
   "worldScrollY": 0,
+<<<<<<< Updated upstream
   "zoom": 25,
+=======
+  "zoom": 43.82057615183294,
+>>>>>>> Stashed changes
   "navigatorSplitSizes": [
     175,
     319,

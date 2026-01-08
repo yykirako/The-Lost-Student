@@ -3,6 +3,7 @@
   "id": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
   "_index": 0,
   "name": "Reception",
+<<<<<<< Updated upstream
   "backgroundId": "9d3071a7-a773-41e6-ba37-01e29c9f53ec",
   "tilesetId": "",
   "width": 40,
@@ -11,6 +12,16 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "002a8+",
+=======
+  "backgroundId": "034f4ca5-c325-413d-8e15-c3696fe7e4c4",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002d0+",
+>>>>>>> Stashed changes
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 168,

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="741f180f-7e07-423d-bee9-0a8676c37c78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../204/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../204/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../204/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../204/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../303/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../303/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../303/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../303/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../304/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../304/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../304/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../304/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../304a/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../304a/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../304a/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../304a/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../computer_society/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../computer_society/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../computer_society/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../computer_society/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dance_society/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../dance_society/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dance_society/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../dance_society/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reception/scene.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../reception/scene.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reception/scene.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../reception/scene.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../settings.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../../settings.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../settings.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../settings.gbsres.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user_settings.gbsres" beforeDir="false" afterPath="$PROJECT_DIR$/../../user_settings.gbsres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user_settings.gbsres.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../user_settings.gbsres.bak" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="37zZ03izV12EsvGrBOxspzqRIsQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="741f180f-7e07-423d-bee9-0a8676c37c78" name="Changes" comment="" />
+      <created>1767907634282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767907634282</updated>
+      <workItem from="1767907635766" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

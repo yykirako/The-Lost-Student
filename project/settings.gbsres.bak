@@ -1,8 +1,19 @@
 {
   "_resourceType": "settings",
+<<<<<<< Updated upstream
   "startSceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
+<<<<<<< Updated upstream
   "startX": 7,
   "startY": 8,
+=======
+  "startX": 9,
+  "startY": 9,
+=======
+  "startSceneId": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
+  "startX": 9,
+  "startY": 8,
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "up",
