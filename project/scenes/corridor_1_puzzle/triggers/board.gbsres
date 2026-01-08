@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "fb1a0218-af9e-4ab5-89c8-f324743af5e2",
+  "name": "Board",
+  "prefabId": "",
+  "x": 3,
+  "y": 5,
+  "symbol": "trigger_58",
+  "prefabScriptOverrides": {},
+  "width": 13,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Only one stair leads to Room 304."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "01711474-a0db-4b7e-a17d-cdf969c60909"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -1,94 +1,65 @@
 {
-  "_resourceType": "actor",
-  "id": "6a80940d-9c58-40c2-af1e-407f97ef6fad",
-  "name": "",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 15,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
-  "prefabScriptOverrides": {},
-  "symbol": "actor_1",
+  "_resourceType": "script",
+  "id": "51eaeb0c-2794-4b8b-b729-2bf7e09c6065",
+  "name": "Script 1",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "3": {
+      "id": "3",
+      "name": "Actor D"
+    }
+  },
+  "symbol": "script_1",
   "script": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Your ID card?",
-          "Dance with me \nfirst!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": false
-      },
-      "id": "98d898f1-590b-463d-8c88-c9dc3d15bb28"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
-        "__collapse": true
-      },
-      "id": "58a0a737-f340-4042-be89-fb247ef4ab17"
-    },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
-        "actorId": "6a80940d-9c58-40c2-af1e-407f97ef6fad",
+        "actorId": "3",
         "x": {
-          "type": "number",
-          "value": 3
+          "type": "variable",
+          "value": "0"
         },
         "y": {
-          "type": "number",
-          "value": 10
+          "type": "variable",
+          "value": "1"
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
+      "id": "fee4fdd5-f141-47ad-92be-7b94b986edbf"
     },
     {
       "command": "EVENT_ACTOR_SET_DIRECTION",
       "args": {
-        "actorId": "$self$",
+        "actorId": "0",
         "direction": {
           "type": "direction",
           "value": "left"
         }
       },
-      "id": "ab2d70cc-1f57-4615-a998-561763163989"
+      "id": "dd8d2e3d-6afb-4c03-a1da-42911c6a0bf4"
     },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "T0",
+        "variable": "V0",
         "value": {
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "e016e34f-dd50-435c-8148-6b969070e26a"
+      "id": "7378891d-9bdb-44fe-bf45-3ade5ebb0e67"
     },
     {
       "command": "EVENT_LOOP_WHILE",
@@ -97,7 +68,7 @@
           "type": "lt",
           "valueA": {
             "type": "variable",
-            "value": "T0"
+            "value": "V0"
           },
           "valueB": {
             "type": "number",
@@ -111,12 +82,12 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "Timer: $T0$",
+              "text": "Timer: $V0$",
               "x": 1,
               "y": 1,
               "location": "background"
             },
-            "id": "f63e7eca-7013-43b4-8e34-b9f1ef822ae6"
+            "id": "0906b909-25d5-4a77-9a01-391515c8a71d"
           },
           {
             "command": "EVENT_IF_INPUT",
@@ -124,7 +95,7 @@
               "input": [
                 "left"
               ],
-              "__collapseElse": false,
+              "__collapseElse": true,
               "__collapse": false
             },
             "children": {
@@ -152,7 +123,7 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "fa298030-751e-45cf-92da-873f8cf6d3bf"
+                  "id": "bdf372cf-7086-4c0c-9149-5521c85c4f8e"
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -177,7 +148,7 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "83e6b76a-5c71-4275-8a05-227329bad4f9"
+                  "id": "83087e0c-4c46-4ce8-83c9-89bf957429ff"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -187,7 +158,7 @@
                       "type": "true"
                     }
                   },
-                  "id": "386d2167-d464-4082-9099-544b1d791032"
+                  "id": "7d3c2f76-9c3c-4cbe-8b99-e4ee4c99085e"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -204,7 +175,7 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "b7eeede9-3eca-43c4-909f-a45c4871b676"
+                  "id": "f0e180cd-5193-4958-b803-d1f3da3da7c6"
                 }
               ],
               "false": [
@@ -221,15 +192,15 @@
                     "clamp": false,
                     "__collapse": true
                   },
-                  "id": "1c193947-e476-4f8e-9eed-5528b38129c5"
+                  "id": "1c88d84a-23b4-41a4-aaa6-458ac719ef73"
                 }
               ]
             },
-            "id": "397de2b4-06cc-4859-96e8-f07df10d13bf"
+            "id": "7a5454a5-bdfa-420b-abf6-e47f8d58367e"
           }
         ]
       },
-      "id": "f534a184-057c-4cb2-b6be-47229f796127"
+      "id": "f80a5afa-bc84-41fa-8e1b-f83dd0a0f514"
     },
     {
       "command": "EVENT_WAIT",
@@ -238,7 +209,7 @@
         "frames": 30,
         "__collapse": true
       },
-      "id": "76555478-6fc9-4008-b90c-e7db2bdbe574"
+      "id": "7c6f6a1b-7dc2-4d5a-9e56-ebe98bd20986"
     },
     {
       "command": "EVENT_TEXT",
@@ -264,7 +235,7 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
+      "id": "3f030183-c8e5-4fb9-8405-7b9fb1fc6944"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -281,15 +252,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "fd24dcf4-4e0f-4723-9e10-642fb035dfee"
+      "id": "10057f2e-944c-40e0-921e-c50a5daf6721"
     }
-  ],
-  "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
-  "x": 8,
-  "y": 8,
-  "_index": 0
+  ]
 }

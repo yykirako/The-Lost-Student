@@ -54,7 +54,7 @@
     {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
-        "actorId": "6a80940d-9c58-40c2-af1e-407f97ef6fad",
+        "actorId": "$self$",
         "x": {
           "type": "number",
           "value": 3
@@ -62,21 +62,9 @@
         "y": {
           "type": "number",
           "value": 10
-        },
-        "__collapse": true
-      },
-      "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "$self$",
-        "direction": {
-          "type": "direction",
-          "value": "left"
         }
       },
-      "id": "ab2d70cc-1f57-4615-a998-561763163989"
+      "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -86,7 +74,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e016e34f-dd50-435c-8148-6b969070e26a"
     },
@@ -103,8 +91,7 @@
             "type": "number",
             "value": 100
           }
-        },
-        "__collapse": true
+        }
       },
       "children": {
         "true": [
@@ -188,23 +175,6 @@
                     }
                   },
                   "id": "386d2167-d464-4082-9099-544b1d791032"
-                },
-                {
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
-                    "x": {
-                      "type": "number",
-                      "value": 1
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 11
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2"
-                  },
-                  "id": "b7eeede9-3eca-43c4-909f-a45c4871b676"
                 }
               ],
               "false": [
@@ -235,8 +205,7 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
-        "frames": 30,
-        "__collapse": true
+        "frames": 30
       },
       "id": "76555478-6fc9-4008-b90c-e7db2bdbe574"
     },
@@ -261,8 +230,7 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "closeDelayFrames": 30
       },
       "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
     },
