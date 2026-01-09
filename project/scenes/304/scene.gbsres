@@ -3,7 +3,11 @@
   "id": "2682cf6f-dad9-4751-81b4-1cb8e406e065",
   "_index": 9,
   "name": "304!!!",
+<<<<<<< Updated upstream
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+=======
+  "backgroundId": "6990a77c-602d-4bd4-a3fa-9c86dd9ff66a",
+>>>>>>> Stashed changes
   "tilesetId": "",
   "width": 32,
   "height": 32,
@@ -15,7 +19,36 @@
   "symbol": "scene_10",
   "x": 1048,
   "y": 1472,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "CONGRATUATION!!!!!",
+          "YOU FOUND THE\nCLASSROOM!!!",
+          "YOU ARE ONLY 2\nHOURS LATE.",
+          "WELL DONE!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fe9f912e-3e79-451f-b149-472610b33860"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

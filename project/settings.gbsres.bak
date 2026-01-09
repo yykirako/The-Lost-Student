@@ -1,6 +1,7 @@
 {
   "_resourceType": "settings",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "startSceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
 <<<<<<< Updated upstream
   "startX": 7,
@@ -13,6 +14,11 @@
   "startX": 9,
   "startY": 8,
 >>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+  "startSceneId": "ed383300-d673-4645-89b7-7eb2107b0832",
+  "startX": 16,
+  "startY": 15,
 >>>>>>> Stashed changes
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
@@ -46,6 +52,7 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
+<<<<<<< Updated upstream
     "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -54,6 +61,11 @@
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
   "musicDriver": "huge",
+=======
+    "TOPDOWN": "8a553c82-8d71-465d-9445-a9f77683a979"
+  },
+  "musicDriver": "gbt",
+>>>>>>> Stashed changes
   "cartType": "mbc5",
   "batterylessEnabled": false,
   "customColorsWhite": "E8F8E0",
@@ -62,36 +74,36 @@
   "customColorsBlack": "202850",
   "customControlsUp": [
     "ArrowUp",
+    "W",
     "w"
   ],
   "customControlsDown": [
     "ArrowDown",
+    "S",
     "s"
   ],
   "customControlsLeft": [
     "ArrowLeft",
-    "a"
+    "a",
+    "A"
   ],
   "customControlsRight": [
     "ArrowRight",
-    "d"
+    "d",
+    "D"
   ],
   "customControlsA": [
-    "Alt",
-    "z",
-    "j"
+    "Z",
+    "z"
   ],
   "customControlsB": [
-    "Control",
-    "k",
+    "X",
     "x"
   ],
   "customControlsStart": [
     "Enter"
   ],
-  "customControlsSelect": [
-    "Shift"
-  ],
+  "customControlsSelect": [],
   "colorMode": "mono",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,

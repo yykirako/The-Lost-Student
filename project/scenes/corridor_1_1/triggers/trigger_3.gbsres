@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "b31cdf6f-4e57-4cdd-a074-d7319c8b5849",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 1,
+  "symbol": "trigger_65",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Some doors in this\nbuilding are\nforever locked..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e71437ee-e175-49e8-89d8-0b973685ed8d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

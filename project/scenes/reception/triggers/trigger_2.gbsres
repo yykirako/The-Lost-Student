@@ -1,0 +1,45 @@
+{
+  "_resourceType": "trigger",
+  "id": "27b0be94-25cc-4189-8782-82e0ab256116",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 8,
+  "symbol": "trigger_58",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "HIYA.",
+          "CAN I HELP YOU?",
+          "CAN'T FIND THE\nCLASSROOM?",
+          "WHY DON'T YOU LOOK \nAT THE WEBSITE.",
+          "OR THE SIGNS IN \nTHE CORRIDOR."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cf211c4b-873a-4013-a980-12009266527d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

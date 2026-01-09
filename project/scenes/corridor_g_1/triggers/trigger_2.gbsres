@@ -11,21 +11,74 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "71cfc675-cf5a-4329-a016-6a5680ee255f",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "11"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 1
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": true,
+        "__collapse": false
       },
-      "id": "98b392c5-e9a1-4f2c-9136-83479a318224"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "71cfc675-cf5a-4329-a016-6a5680ee255f",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "602d20e0-fab1-4177-a4cf-88ed802c905f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You need an ID \ncard to open this \ndoor!",
+                "hmm, i must have\nlost my ID at the\ndance society.",
+                "...the room was \nclose to stair A?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "e61a799e-4328-4362-ac0b-0d2c3a2a312d"
+          }
+        ]
+      },
+      "id": "596175ea-d222-4174-9286-8b7c626ae35e"
     }
   ],
   "leaveScript": [],

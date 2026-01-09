@@ -1,0 +1,27 @@
+{
+  "_resourceType": "scene",
+  "id": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Sign",
+  "symbol": "scene_2",
+  "x": 544,
+  "y": 80,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "5c21b0ed-5977-4166-8f41-d7179bd393d7",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a553c82-8d71-465d-9445-a9f77683a979",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

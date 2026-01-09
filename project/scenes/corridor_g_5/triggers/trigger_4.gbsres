@@ -1,0 +1,48 @@
+{
+  "_resourceType": "trigger",
+  "id": "0748f5e9-2c3c-44bc-ae91-2d9693681159",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 3,
+  "symbol": "trigger_69",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...Feel the \nblowing wind",
+          "You shout the joke\nat me",
+          "Put your head back \nin the car",
+          "And watch those\ndog cry",
+          "We're leaving \nthe city",
+          "We're leaving \nthe city.",
+          "...",
+          "anonymous poem...\nbut the first half\nis ripped :("
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "81c79e3e-bdf2-4801-9887-f7aaf011248e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

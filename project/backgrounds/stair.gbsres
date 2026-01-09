@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cd4990a6-95de-47ea-a357-a18b13742b84",
+  "name": "stair",
+  "symbol": "bg_stair",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "stair.png",
+  "tileColors": ""
+}

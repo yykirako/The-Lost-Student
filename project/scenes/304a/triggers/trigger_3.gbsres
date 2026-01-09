@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "4a0319ce-e8a1-444b-bdbc-031866002679",
+  "name": "",
+  "prefabId": "",
+  "x": 23,
+  "y": 0,
+  "symbol": "trigger_73",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 18,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...room 304A???",
+          "...why there is a\nroom 304A?",
+          "does anyone even\nknow?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "7d9767df-6768-48a7-bd55-4e0dfc3a2264"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

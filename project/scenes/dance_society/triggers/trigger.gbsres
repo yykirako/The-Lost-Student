@@ -16,11 +16,15 @@
         "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 4
         },
         "y": {
           "type": "number",
+<<<<<<< Updated upstream
           "value": 9
+=======
+          "value": 14
+>>>>>>> Stashed changes
         },
         "direction": "",
         "fadeSpeed": "2"

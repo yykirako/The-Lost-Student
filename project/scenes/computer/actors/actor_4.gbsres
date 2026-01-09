@@ -1,0 +1,181 @@
+{
+  "_resourceType": "actor",
+  "id": "02d26f3c-4244-43bf-8ce5-dd04073f159a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f59a0bf6-9997-427e-bbf8-46e66ec4d08e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 2,
+  "animSpeed": 127,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+        "__collapse": true
+      },
+      "id": "cda374f6-34a8-47ed-bf2c-24c41c3abb62"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Tower Sculpture:\nYou took hitting \nthe books literally"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": 1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.6,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "dd608924-8042-4153-8f2e-0814b3c34746"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Also why are you\nplaying a video \ngame when you are\nlate for class?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "877ce90d-21a5-4a6b-a695-f94834ec10e3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "92c57af5-6773-4955-b9e0-e72a68c076b5",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "3dcf26b0-e8ba-4bea-9c6d-d3ab85bc9a1b"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 17
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "__collapse": false
+      },
+      "id": "66814606-c6e6-477a-ae64-a5f89e11219a"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "__collapse": false
+      },
+      "id": "d8ab8f2d-fa8f-4d0b-ba0a-40e1f4b6bfce"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "id": "cfc65080-387c-4183-af70-efd2a44d1375"
+          }
+        ],
+        "false": []
+      },
+      "id": "26437b43-cb5c-4eb1-8431-81ae94877548"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 15,
+  "_index": 3
+}

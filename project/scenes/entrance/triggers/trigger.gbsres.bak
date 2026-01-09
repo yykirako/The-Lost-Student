@@ -3,11 +3,19 @@
   "id": "90ec19ec-3366-4a0f-a664-ec55b4f8d696",
   "name": "",
   "prefabId": "",
+<<<<<<< Updated upstream
   "x": 8,
   "y": 17,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
   "width": 2,
+=======
+  "x": 1,
+  "y": 31,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 30,
+>>>>>>> Stashed changes
   "height": 1,
   "script": [
     {

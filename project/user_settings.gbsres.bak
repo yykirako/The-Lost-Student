@@ -1,11 +1,16 @@
 {
   "_resourceType": "settings",
   "worldScrollX": 0,
+<<<<<<< Updated upstream
   "worldScrollY": 0,
 <<<<<<< Updated upstream
   "zoom": 25,
 =======
   "zoom": 43.82057615183294,
+>>>>>>> Stashed changes
+=======
+  "worldScrollY": 203.5,
+  "zoom": 55.05129503086209,
 >>>>>>> Stashed changes
   "navigatorSplitSizes": [
     175,
@@ -15,12 +20,15 @@
   ],
   "showNavigator": true,
   "showCollisions": true,
-  "showConnections": "selected",
+  "showConnections": "all",
   "previewAsMono": false,
   "showCollisionSlopeTiles": false,
   "favoriteEvents": [
     "EVENT_TEXT",
-    "EVENT_SWITCH_SCENE"
+    "EVENT_SWITCH_SCENE",
+    "EVENT_SET_VALUE",
+    "EVENT_SET_VALUE::EVENT_SET_FALSE",
+    "EVENT_ACTOR_SET_DIRECTION"
   ],
   "debuggerEnabled": true,
   "debuggerScriptType": "editor",

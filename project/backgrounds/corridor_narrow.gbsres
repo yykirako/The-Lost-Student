@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "576e18d4-8501-4be8-841d-25efec1e5da6",
+  "name": "corridor_narrow",
+  "symbol": "bg_corridor_narrow",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "corridor_narrow.png",
+  "tileColors": ""
+}

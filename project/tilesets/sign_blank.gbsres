@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5fba8a15-1195-44bb-abe0-ed750c8819eb",
+  "name": "sign_blank",
+  "symbol": "tileset_sign_blank",
+  "width": 4,
+  "height": 3,
+  "imageWidth": 32,
+  "imageHeight": 24,
+  "filename": "sign_blank.png"
+}

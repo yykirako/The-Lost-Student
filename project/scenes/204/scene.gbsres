@@ -3,7 +3,11 @@
   "id": "14f7ae62-5993-4388-91a8-63d4600ad77c",
   "_index": 7,
   "name": "204",
+<<<<<<< Updated upstream
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+=======
+  "backgroundId": "34c2f6ff-cee3-4d4f-b156-986c8f1bf077",
+>>>>>>> Stashed changes
   "tilesetId": "",
   "width": 32,
   "height": 32,
@@ -14,8 +18,36 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 816,
-  "y": 1296,
-  "script": [],
+  "y": 1288,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "of course room 204\nis next to 304A",
+          "..guess i can only\ngo back..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "32ceb3c6-d464-43e5-ba43-2a08de54ec7b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

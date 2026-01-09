@@ -1,21 +1,65 @@
 {
   "_resourceType": "scene",
-  "id": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
-  "_index": 1,
+  "id": "ed383300-d673-4645-89b7-7eb2107b0832",
+  "_index": 25,
   "name": "Entrance",
+<<<<<<< Updated upstream
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "e68aedef-52c0-473b-9ab9-3fd976d7fe11",
   "width": 20,
   "height": 18,
+=======
+  "backgroundId": "76c4d7b0-3522-42ca-8be9-01c2f3eaf8aa",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+>>>>>>> Stashed changes
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
+<<<<<<< Updated upstream
   "symbol": "scene_2",
   "x": 168,
   "y": 296,
   "script": [],
+=======
+  "symbol": "scene_30",
+  "x": 72,
+  "y": 48,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "phew... arrive at \nuni 5 minutes \nearlier!",
+          "now i just need to\nfind the classroom\n...",
+          "304A huh?\nhave no idea where\nthat is.",
+          "maybe i should ask \nthe reception..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "d3a5acf6-f192-4393-91a2-bd9016f64dfe"
+    }
+  ],
+>>>>>>> Stashed changes
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

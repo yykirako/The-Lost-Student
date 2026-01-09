@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "7bb64c14-86c5-47e1-a10b-c67b6e45c8d0",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 3,
+  "symbol": "trigger_67",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "seems the computer\nsociety is having\nsome event today."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0d411f99-65cc-42ba-99ba-67f5de853f33"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

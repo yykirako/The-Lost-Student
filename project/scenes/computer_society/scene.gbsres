@@ -1,9 +1,13 @@
 {
   "_resourceType": "scene",
   "id": "5594bbcb-987a-4988-96a7-1ba165c33ce7",
-  "_index": 25,
+  "_index": 20,
   "name": "Computer_Society",
+<<<<<<< Updated upstream
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+=======
+  "backgroundId": "06ff422c-fd1d-4f7e-8f0a-281301d01b06",
+>>>>>>> Stashed changes
   "tilesetId": "",
   "width": 32,
   "height": 32,
@@ -15,8 +19,54 @@
   "symbol": "scene_26",
   "x": 1248,
   "y": 616,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "all eyes on you!\nalan is staring...",
+          "you should just\nleave..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6ae7c4aa-7189-489c-ab4e-2c322a2fd8b8"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "b6fbcd94-2430-40f5-ab86-54fde7432ff2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

@@ -2,14 +2,24 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "bdf3a0ad-92b7-4280-af9d-c6b874de7f51__L0",
-      "name": "HaveLookedAtTheWebsite",
-      "symbol": "var_havelookedatthewebsite"
+      "id": "0",
+      "name": "HaveGameStarted",
+      "symbol": "var_havegamestarted"
     },
     {
       "id": "11",
       "name": "Key_1",
       "symbol": "var_key_1"
+    },
+    {
+      "id": "bdf3a0ad-92b7-4280-af9d-c6b874de7f51__L0",
+      "name": "HaveLookedAtTheWebsite",
+      "symbol": "var_havelookedatthewebsite"
+    },
+    {
+      "id": "6a80940d-9c58-40c2-af1e-407f97ef6fad__L0",
+      "name": "local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

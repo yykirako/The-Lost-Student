@@ -7,7 +7,11 @@
   "y": 16,
   "symbol": "trigger_0",
   "prefabScriptOverrides": {},
+<<<<<<< Updated upstream
   "width": 2,
+=======
+  "width": 20,
+>>>>>>> Stashed changes
   "height": 1,
   "script": [
     {
@@ -16,14 +20,22 @@
         "sceneId": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 16
         },
         "y": {
           "type": "number",
+<<<<<<< Updated upstream
           "value": 0
         },
         "direction": "",
         "fadeSpeed": "2"
+=======
+          "value": 14
+        },
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__collapse": true
+>>>>>>> Stashed changes
       },
       "id": "96dd940c-4685-4923-bebf-8ed09dcb543a"
     }

@@ -7,7 +7,7 @@
   "y": 17,
   "symbol": "trigger_0",
   "prefabScriptOverrides": {},
-  "width": 40,
+  "width": 20,
   "height": 1,
   "script": [
     {
@@ -20,7 +20,7 @@
         },
         "y": {
           "type": "number",
-          "value": 2
+          "value": 13
         },
         "direction": "down",
         "fadeSpeed": "2"

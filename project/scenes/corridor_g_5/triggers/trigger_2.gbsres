@@ -20,12 +20,35 @@
         },
         "y": {
           "type": "number",
-          "value": 1
+          "value": 16
         },
         "direction": "",
         "fadeSpeed": "2"
       },
       "id": "aab0ce99-4a29-43dd-8e67-f97051420434"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "",
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "227519fa-c4fd-4118-bb04-4a4ca551570a"
     }
   ],
   "leaveScript": [],

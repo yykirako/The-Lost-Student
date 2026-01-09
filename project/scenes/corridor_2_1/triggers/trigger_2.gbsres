@@ -3,29 +3,133 @@
   "id": "3ad83d4f-0ead-4270-9184-231616cdc5ad",
   "name": "",
   "prefabId": "",
-  "x": 19,
-  "y": 1,
+  "x": 38,
+  "y": 5,
   "symbol": "trigger_48",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 16,
+  "height": 8,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "cfbf2ef0-2863-4e53-9639-5fa49ab71f03",
-        "x": {
-          "type": "number",
-          "value": 1
-        },
-        "y": {
-          "type": "number",
-          "value": 9
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "text": [
+          "SUPRIZZZZZZZ QUIZ \nTIME!",
+          "How many students\nwere in the \nComputer Society?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "de5f938b-1c71-4db1-a1f1-84013e9b7257"
+      "id": "0c592180-7dea-459b-a8aa-991c49e83823"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "12",
+        "falseText": "16",
+        "__collapse": false
+      },
+      "id": "bffde6ff-77d0-4237-8f37-733c7d72518a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "LUCKY GUESS!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dad0e189-b715-47fb-abbf-6dbe67d3be76"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2682cf6f-dad9-4751-81b4-1cb8e406e065",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "20339162-c785-4b5a-982a-8d22e060fdda"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WRONG ANSWER!\nCAN'T GO BEYOND!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "aa91ea79-5661-4de2-8628-bc0e22d0e1cf"
+          }
+        ]
+      },
+      "id": "925e3f72-c8bc-4ae9-a8c9-42749419ee16"
     }
   ],
   "leaveScript": [],

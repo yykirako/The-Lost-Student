@@ -26,6 +26,23 @@
         "fadeSpeed": "2"
       },
       "id": "1dc525b6-9a8f-4c39-afc8-33dfd2130dcf"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f6f86f66-64b2-486f-a2f6-2d2d91299fa9",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "e5ea72a8-553b-4616-a9f7-8c002f848eef"
     }
   ],
   "leaveScript": [],

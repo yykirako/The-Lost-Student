@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "0ca8bce2-4d84-415d-9def-6d9ae1acfaeb",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 8,
+  "symbol": "trigger_70",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "NORTH - RECEPTION\nSOUTH - ROOM 303"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b3705137-a3b6-4364-967c-5d53756d1f1a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

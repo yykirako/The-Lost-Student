@@ -17,6 +17,76 @@
   "symbol": "actor_1",
   "script": [
     {
+<<<<<<< Updated upstream
+=======
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "11"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You already got \nyour ID. What are \nyou doing here?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "602f352c-9543-4e8e-a249-e8d5265f16df"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8eea527b-4af5-46b7-b221-c5c8e814ee04"
+          }
+        ],
+        "false": []
+      },
+      "id": "c24c12ed-c3b9-4bbb-89d9-9ac894b982f0"
+    },
+    {
+>>>>>>> Stashed changes
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -44,30 +114,23 @@
       "id": "98d898f1-590b-463d-8c88-c9dc3d15bb28"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
-        "__collapse": true
-      },
-      "id": "58a0a737-f340-4042-be89-fb247ef4ab17"
-    },
-    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "6a80940d-9c58-40c2-af1e-407f97ef6fad",
         "x": {
           "type": "number",
-          "value": 3
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 10
+          "value": 12
         },
         "__collapse": true
       },
       "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
     },
     {
+<<<<<<< Updated upstream
       "command": "EVENT_ACTOR_SET_DIRECTION",
       "args": {
         "actorId": "$self$",
@@ -77,6 +140,14 @@
         }
       },
       "id": "ab2d70cc-1f57-4615-a998-561763163989"
+=======
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
+        "__collapse": true
+      },
+      "id": "4f12d44e-f5fc-49bf-ad5d-7c2814a9724f"
+>>>>>>> Stashed changes
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -84,7 +155,11 @@
         "variable": "T0",
         "value": {
           "type": "number",
+<<<<<<< Updated upstream
           "value": 0
+=======
+          "value": 9
+>>>>>>> Stashed changes
         },
         "__collapse": true
       },
@@ -94,7 +169,11 @@
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
+<<<<<<< Updated upstream
           "type": "lt",
+=======
+          "type": "gte",
+>>>>>>> Stashed changes
           "valueA": {
             "type": "variable",
             "value": "T0"
@@ -104,19 +183,50 @@
             "value": 100
           }
         },
+<<<<<<< Updated upstream
         "__collapse": true
+=======
+        "__collapse": false,
+        "__comment": false
+>>>>>>> Stashed changes
       },
       "children": {
         "true": [
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
+<<<<<<< Updated upstream
               "text": "Timer: $T0$",
+=======
+              "text": "Match the step!\nW/A/S/D",
+>>>>>>> Stashed changes
               "x": 1,
               "y": 1,
               "location": "background"
             },
-            "id": "f63e7eca-7013-43b4-8e34-b9f1ef822ae6"
+            "id": "ecb754c4-8b80-4b16-9a79-f2700a2a66a5"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Countdown: %D1$T0$",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "67bb4ac3-9540-4ef4-820b-0429ffb00da7"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "da966649-33f9-426c-aeb6-1e2e7ebafb59"
           },
           {
             "command": "EVENT_IF_INPUT",
@@ -130,8 +240,9 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
                   "args": {
+<<<<<<< Updated upstream
                     "text": [
                       "Is this your ID \ncard?"
                     ],
@@ -151,14 +262,91 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
+=======
+                    "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    },
+                    "__collapse": true,
+                    "__comment": true
+>>>>>>> Stashed changes
                   },
-                  "id": "fa298030-751e-45cf-92da-873f8cf6d3bf"
+                  "id": "a4716b7d-5ddc-4c10-b270-c57845eaf84b"
+                },
+                {
+                  "command": "EVENT_IF_INPUT",
+                  "args": {
+                    "input": [
+                      "right"
+                    ],
+                    "__collapseElse": true,
+                    "__comment": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
+                          "direction": {
+                            "type": "direction",
+                            "value": "down"
+                          }
+                        },
+                        "id": "1af1f1f3-09e7-4f7f-b1dd-122b2f520f11"
+                      },
+                      {
+                        "command": "EVENT_IF_INPUT",
+                        "args": {
+                          "input": [
+                            "down"
+                          ],
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_DIRECTION",
+                              "args": {
+                                "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
+                                "direction": {
+                                  "type": "direction",
+                                  "value": "left"
+                                }
+                              },
+                              "id": "3387a4d6-c01b-4bee-a017-b6438670db8b"
+                            },
+                            {
+                              "command": "EVENT_IF_INPUT",
+                              "args": {
+                                "input": [
+                                  "left"
+                                ],
+                                "__collapseElse": true
+                              },
+                              "children": {
+                                "true": [],
+                                "false": []
+                              },
+                              "id": "96938d8a-c7f6-4090-8d73-7c43d132c5d0"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "ef2dfc91-fa3e-46dc-a678-e4f2f880cf9f"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "7b910c98-84ac-4ef8-a61e-a52ff75e8559"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "You got your ID \ncard!"
+                      "IS THIS YOUR ID\nCARD?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -175,9 +363,10 @@
                     "closeWhen": "key",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__collapse": true
                   },
-                  "id": "83e6b76a-5c71-4275-8a05-227329bad4f9"
+                  "id": "7624eca6-47ab-4da5-9c21-2482c4cb8bc8"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -185,9 +374,36 @@
                     "variable": "11",
                     "value": {
                       "type": "true"
-                    }
+                    },
+                    "__collapse": true
                   },
-                  "id": "386d2167-d464-4082-9099-544b1d791032"
+                  "id": "d9a3802f-3126-49a7-81f3-ffd53126b3bc"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You got your ID\ncard!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "5df2bee9-d48c-419f-9d8a-88849eac759b"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -195,22 +411,38 @@
                     "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
                     "x": {
                       "type": "number",
-                      "value": 1
+                      "value": 12
                     },
                     "y": {
                       "type": "number",
+<<<<<<< Updated upstream
                       "value": 11
                     },
                     "direction": "",
                     "fadeSpeed": "2"
                   },
                   "id": "b7eeede9-3eca-43c4-909f-a45c4871b676"
+=======
+                      "value": 14
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "6264fb7e-110d-4418-aa78-ad14bc1b6d9f"
+                },
+                {
+                  "command": "EVENT_STOP",
+                  "args": {},
+                  "id": "c4c24f5a-9373-4a8d-87ab-ed5f44141265"
+>>>>>>> Stashed changes
                 }
               ],
               "false": [
                 {
-                  "command": "EVENT_VARIABLE_MATH",
+                  "command": "EVENT_DEC_VALUE",
                   "args": {
+<<<<<<< Updated upstream
                     "vectorX": "T0",
                     "operation": "add",
                     "other": "val",
@@ -220,8 +452,11 @@
                     "maxValue": "32767",
                     "clamp": false,
                     "__collapse": true
+=======
+                    "variable": "T0"
+>>>>>>> Stashed changes
                   },
-                  "id": "1c193947-e476-4f8e-9eed-5528b38129c5"
+                  "id": "f93befc8-cb29-4690-8ad9-158579ac70df"
                 }
               ]
             },
@@ -232,38 +467,81 @@
       "id": "f534a184-057c-4cb2-b6be-47229f796127"
     },
     {
-      "command": "EVENT_WAIT",
+      "command": "EVENT_IF",
       "args": {
-        "time": 1,
-        "frames": 30,
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
         "__collapse": true
       },
-      "id": "76555478-6fc9-4008-b90c-e7db2bdbe574"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Bad move!You can't\nhave your ID card."
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "76555478-6fc9-4008-b90c-e7db2bdbe574"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Bad move!You can't\nhave your ID card."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "fd24dcf4-4e0f-4723-9e10-642fb035dfee"
+          }
         ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "false": []
       },
+<<<<<<< Updated upstream
       "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
     },
     {
@@ -282,6 +560,9 @@
         "fadeSpeed": "2"
       },
       "id": "fd24dcf4-4e0f-4723-9e10-642fb035dfee"
+=======
+      "id": "e1bbbb84-decb-4968-85a3-93ab4b284a34"
+>>>>>>> Stashed changes
     }
   ],
   "startScript": [],

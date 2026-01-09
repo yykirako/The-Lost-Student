@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "ce578c63-b07a-4669-ad42-9213d3569cdf",
-  "_index": 23,
+  "_index": 18,
   "name": "Corridor_G_5",
-  "backgroundId": "25110b57-eb39-4854-b60e-00ad96745cee",
+  "backgroundId": "5c21b0ed-5977-4166-8f41-d7179bd393d7",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -15,8 +15,15 @@
   "symbol": "scene_24",
   "x": 1248,
   "y": 432,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "b468ddc0-0f79-46be-a8c6-699e2172365c"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8a553c82-8d71-465d-9445-a9f77683a979"
 }

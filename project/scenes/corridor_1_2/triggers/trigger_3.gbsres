@@ -1,31 +1,45 @@
 {
   "_resourceType": "trigger",
-  "id": "84bc1670-b889-451d-b614-df7e602b3e77",
+  "id": "9f59ec4a-ef20-422d-9ba8-f4685738a899",
   "name": "",
   "prefabId": "",
-  "x": 19,
-  "y": 1,
-  "symbol": "trigger_44",
+  "x": 11,
+  "y": 3,
+  "symbol": "trigger_68",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 16,
+  "width": 6,
+  "height": 6,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "f6f86f66-64b2-486f-a2f6-2d2d91299fa9",
-        "x": {
-          "type": "number",
-          "value": 1
-        },
-        "y": {
-          "type": "number",
-          "value": 9
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "text": [
+          "The loud bar had a\ngood knack. ",
+          "It made me think \nwe were alike...",
+          "some of you could\nbecome some of me.",
+          "And i got tattoed.\nBleach my hair in",
+          "the middle of your\nwalls. Feel the...",
+          "...",
+          "Anonymous poem...\nbut the last half\nis ripped :("
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "a1f5e2a1-a897-43ad-9a37-a5d29c7c94e8"
+      "id": "e24f6fce-30d7-40c8-85bc-f8b0bd904605"
     }
   ],
   "leaveScript": [],

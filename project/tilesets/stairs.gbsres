@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c6c96c2c-2297-49c0-a153-13b6d108cb90",
+  "name": "stairs",
+  "symbol": "tileset_stairs",
+  "width": 8,
+  "height": 14,
+  "imageWidth": 64,
+  "imageHeight": 112,
+  "filename": "stairs.png"
+}

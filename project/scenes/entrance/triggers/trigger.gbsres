@@ -1,15 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "90ec19ec-3366-4a0f-a664-ec55b4f8d696",
+  "id": "e5584fbe-a277-487e-a63a-19888ecaf7f8",
   "name": "",
   "prefabId": "",
+<<<<<<< Updated upstream
   "x": 1,
   "y": 17,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
   "width": 18,
   "height": 1,
+=======
+  "x": 13,
+  "y": 19,
+  "symbol": "trigger_61",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 9,
+>>>>>>> Stashed changes
   "script": [
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "ENTER",
+        "falseText": "LEAVE"
+      },
+      "id": "9cabd2d0-b2da-4c35-9642-68dc904b5ceb"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -17,7 +35,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "11"
+            "value": "L0"
           },
           "valueB": {
             "type": "number",
@@ -31,49 +49,50 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "5775f425-86bb-44b0-a936-da83c8805a76",
+              "sceneId": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 8
               },
               "y": {
                 "type": "number",
-                "value": 1
+                "value": 13
               },
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "4f26801b-0af0-44e3-9580-f9bc96952714"
+            "id": "2bf94572-c894-4988-8413-3bc39021dd3b"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "well i still have \n5 minutes."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5b97fece-14b3-4219-9de2-59daf9ac1d06"
+          }
+        ]
       },
-      "id": "d28b6dd6-de34-4b6d-b67c-61a00ad5baba"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "You need an ID \ncard to open this \ndoor!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "4bad6e86-c52e-47c3-8e73-991d73d54d6e"
+      "id": "2f082fce-984c-4c16-ae03-26e19865f6ca"
     }
   ],
   "leaveScript": [],

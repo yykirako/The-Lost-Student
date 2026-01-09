@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "66bc051e-b1b3-4731-8eeb-dd82cdae1ad2",
+  "name": "sign_4dir",
+  "symbol": "tileset_sign_4dir",
+  "width": 4,
+  "height": 3,
+  "imageWidth": 32,
+  "imageHeight": 24,
+  "filename": "sign_4dir.png"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "fdd3c92f-459f-4052-89db-f03e5834e7f4",
+  "name": "topdown_tileset",
+  "symbol": "tileset_topdown_tileset",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "topdown_tileset.png"
+}

@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "e276d45d-b78f-4bed-b988-88c213071a61",
+  "name": "",
+  "prefabId": "",
+  "x": 3,
+  "y": 7,
+  "symbol": "trigger_72",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "STAIR G\nNORTH - RECEPTION\nSOUTH - ?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8158ffc1-5716-4dd1-b25a-abeda0b0d2c6"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}
