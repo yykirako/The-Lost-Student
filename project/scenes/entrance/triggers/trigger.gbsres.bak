@@ -3,21 +3,12 @@
   "id": "e5584fbe-a277-487e-a63a-19888ecaf7f8",
   "name": "",
   "prefabId": "",
-<<<<<<< Updated upstream
-  "x": 1,
-  "y": 17,
-  "symbol": "trigger_1",
-  "prefabScriptOverrides": {},
-  "width": 18,
-  "height": 1,
-=======
   "x": 13,
   "y": 19,
   "symbol": "trigger_61",
   "prefabScriptOverrides": {},
   "width": 7,
   "height": 9,
->>>>>>> Stashed changes
   "script": [
     {
       "command": "EVENT_CHOICE",

@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "0c991baa-7b52-4b88-ae96-13f5d2533d0d",
+  "id": "35379c9b-8990-44d0-8765-c9bf185f57ea",
   "name": "correct class!!!",
   "symbol": "bg_correct_class_",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "correct class!!!.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

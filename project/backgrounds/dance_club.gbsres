@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "1b8f7d0a-e0a0-4343-9445-c119290d8274",
+  "id": "fadd05f9-aeaf-4d44-b8e0-d189fd873e0c",
   "name": "Dance club",
   "symbol": "bg_dance_club",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "Dance club.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

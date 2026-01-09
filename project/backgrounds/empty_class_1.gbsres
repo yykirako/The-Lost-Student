@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "7314a7b8-a78b-4ea0-bbc0-b25e36804b87",
+  "id": "1f7e454a-a738-4009-9c89-cac04463f3df",
   "name": "empty class 1",
   "symbol": "bg_empty_class_1",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "empty class 1.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

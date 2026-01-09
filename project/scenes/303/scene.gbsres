@@ -3,7 +3,7 @@
   "id": "92c57af5-6773-4955-b9e0-e72a68c076b5",
   "_index": 5,
   "name": "303",
-  "backgroundId": "7314a7b8-a78b-4ea0-bbc0-b25e36804b87",
+  "backgroundId": "1f7e454a-a738-4009-9c89-cac04463f3df",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -46,5 +46,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8a553c82-8d71-465d-9445-a9f77683a979"
+  "playerSpriteSheetId": "b8e8306f-7c21-4a45-97e3-f7e66236f896"
 }

@@ -7,11 +7,7 @@
   "y": 0,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
-<<<<<<< Updated upstream:project/scenes/entrance/triggers/trigger_4.gbsres
-  "width": 18,
-=======
   "width": 19,
->>>>>>> Stashed changes:project/scenes/sign/triggers/trigger_4.gbsres
   "height": 1,
   "script": [
     {
@@ -20,11 +16,11 @@
         "sceneId": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 11
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 16
         },
         "direction": "up",
         "fadeSpeed": "2"

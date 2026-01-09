@@ -3,8 +3,8 @@
   "id": "65813b3f-1501-400c-907d-5c2a3fc3aa9e",
   "_index": 19,
   "name": "Dance_Society",
-  "backgroundId": "1b8f7d0a-e0a0-4343-9445-c119290d8274",
-  "tilesetId": "374ed0ca-c0c2-40b5-bc4c-ac2eff08ea27",
+  "backgroundId": "fadd05f9-aeaf-4d44-b8e0-d189fd873e0c",
+  "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
@@ -27,5 +27,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8a553c82-8d71-465d-9445-a9f77683a979"
+  "playerSpriteSheetId": "b8e8306f-7c21-4a45-97e3-f7e66236f896"
 }
