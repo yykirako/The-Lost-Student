@@ -1,25 +1,13 @@
 {
   "_resourceType": "settings",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "worldScrollX": 0,
   "worldScrollY": 0,
-  "zoom": 69.19619639217854,
-=======
-  "worldScrollX": 67.5,
-  "worldScrollY": 292.5,
-  "zoom": 68.5321044921875,
->>>>>>> Stashed changes
-=======
-  "worldScrollX": 0,
-  "worldScrollY": 416.5,
   "zoom": 55.05129503086209,
->>>>>>> Stashed changes
   "navigatorSplitSizes": [
-    145,
-    555,
-    30,
-    30
+    175,
+    319,
+    205,
+    205
   ],
   "showNavigator": true,
   "showCollisions": true,

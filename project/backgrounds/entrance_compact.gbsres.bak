@@ -8,5 +8,6 @@
   "imageWidth": 256,
   "imageHeight": 256,
   "filename": "entrance_compact.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

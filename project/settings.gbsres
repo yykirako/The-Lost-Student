@@ -1,20 +1,8 @@
 {
   "_resourceType": "settings",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "startSceneId": "2b56d5f0-1439-4426-98cf-5b29bda7c530",
-  "startX": 10,
-  "startY": 9,
-=======
-  "startSceneId": "",
-  "startX": 0,
-  "startY": 0,
->>>>>>> Stashed changes
-=======
   "startSceneId": "ed383300-d673-4645-89b7-7eb2107b0832",
   "startX": 16,
   "startY": 16,
->>>>>>> Stashed changes
   "startMoveSpeed": 1,
   "startAnimSpeed": 3,
   "startDirection": "down",
@@ -47,7 +35,7 @@
   "defaultFontId": "",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "8a553c82-8d71-465d-9445-a9f77683a979"
+    "TOPDOWN": "b8e8306f-7c21-4a45-97e3-f7e66236f896"
   },
   "musicDriver": "gbt",
   "cartType": "mbc5",
@@ -87,15 +75,8 @@
   "customControlsStart": [
     "Enter"
   ],
-<<<<<<< Updated upstream
-  "customControlsSelect": [
-    "Shift"
-  ],
-  "colorMode": "mixed",
-=======
   "customControlsSelect": [],
   "colorMode": "mono",
->>>>>>> Stashed changes
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

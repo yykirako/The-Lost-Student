@@ -40,8 +40,8 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "16",
-        "falseText": "12",
+        "trueText": "12",
+        "falseText": "16",
         "__collapse": false
       },
       "id": "bffde6ff-77d0-4237-8f37-733c7d72518a"

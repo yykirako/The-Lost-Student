@@ -1,0 +1,53 @@
+{
+  "_resourceType": "actor",
+  "id": "b9ec7bac-f6a0-480a-83ac-be48205baecf",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ed491cff-4d49-4458-8caf-bbd047d20b23",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "THIS IS THE\nCLASSROOM FOR\nGAME PROGRAMMING."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7e337ef0-94ad-410c-a37d-bbbddd64e54e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 6,
+  "_index": 0
+}

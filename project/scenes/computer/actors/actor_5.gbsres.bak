@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3cec5b9c-4e48-4cc4-8f0e-67ff10794ced",
+  "spriteSheetId": "ff294438-069e-488e-9a6e-04d8a8d8d958",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 2,
@@ -21,7 +21,7 @@
       "args": {
         "actorId": "$self$",
         "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a475ec3a-a147-4700-b490-14488c86e974"
     },
@@ -82,7 +82,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
+        "sceneId": "92c57af5-6773-4955-b9e0-e72a68c076b5",
         "x": {
           "type": "number",
           "value": 3

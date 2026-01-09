@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "ec11ef34-5971-484a-a2e0-bd7d6c89483f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -17,8 +17,6 @@
   "symbol": "actor_1",
   "script": [
     {
-<<<<<<< Updated upstream
-=======
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -86,7 +84,6 @@
       "id": "c24c12ed-c3b9-4bbb-89d9-9ac894b982f0"
     },
     {
->>>>>>> Stashed changes
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -109,14 +106,14 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "98d898f1-590b-463d-8c88-c9dc3d15bb28"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
-        "actorId": "6a80940d-9c58-40c2-af1e-407f97ef6fad",
+        "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
         "x": {
           "type": "number",
           "value": 9
@@ -130,24 +127,12 @@
       "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
     },
     {
-<<<<<<< Updated upstream
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "$self$",
-        "direction": {
-          "type": "direction",
-          "value": "left"
-        }
-      },
-      "id": "ab2d70cc-1f57-4615-a998-561763163989"
-=======
       "command": "EVENT_ACTOR_ACTIVATE",
       "args": {
         "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
         "__collapse": true
       },
       "id": "4f12d44e-f5fc-49bf-ad5d-7c2814a9724f"
->>>>>>> Stashed changes
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -155,13 +140,9 @@
         "variable": "T0",
         "value": {
           "type": "number",
-<<<<<<< Updated upstream
-          "value": 0
-=======
           "value": 9
->>>>>>> Stashed changes
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e016e34f-dd50-435c-8148-6b969070e26a"
     },
@@ -169,37 +150,25 @@
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
-<<<<<<< Updated upstream
-          "type": "lt",
-=======
           "type": "gte",
->>>>>>> Stashed changes
           "valueA": {
             "type": "variable",
             "value": "T0"
           },
           "valueB": {
             "type": "number",
-            "value": 100
+            "value": 0
           }
         },
-<<<<<<< Updated upstream
-        "__collapse": true
-=======
         "__collapse": false,
         "__comment": false
->>>>>>> Stashed changes
       },
       "children": {
         "true": [
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-<<<<<<< Updated upstream
-              "text": "Timer: $T0$",
-=======
               "text": "Match the step!\nW/A/S/D",
->>>>>>> Stashed changes
               "x": 1,
               "y": 1,
               "location": "background"
@@ -242,27 +211,6 @@
                 {
                   "command": "EVENT_ACTOR_SET_DIRECTION",
                   "args": {
-<<<<<<< Updated upstream
-                    "text": [
-                      "Is this your ID \ncard?"
-                    ],
-                    "__section": "layout",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-=======
                     "actorId": "62d5e6f8-5fa9-4dba-b9cc-d8a9db47fa1d",
                     "direction": {
                       "type": "direction",
@@ -270,7 +218,6 @@
                     },
                     "__collapse": true,
                     "__comment": true
->>>>>>> Stashed changes
                   },
                   "id": "a4716b7d-5ddc-4c10-b270-c57845eaf84b"
                 },
@@ -415,14 +362,6 @@
                     },
                     "y": {
                       "type": "number",
-<<<<<<< Updated upstream
-                      "value": 11
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2"
-                  },
-                  "id": "b7eeede9-3eca-43c4-909f-a45c4871b676"
-=======
                       "value": 14
                     },
                     "direction": "",
@@ -435,26 +374,13 @@
                   "command": "EVENT_STOP",
                   "args": {},
                   "id": "c4c24f5a-9373-4a8d-87ab-ed5f44141265"
->>>>>>> Stashed changes
                 }
               ],
               "false": [
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-<<<<<<< Updated upstream
-                    "vectorX": "T0",
-                    "operation": "add",
-                    "other": "val",
-                    "vectorY": "L0",
-                    "value": 1,
-                    "minValue": "0",
-                    "maxValue": "32767",
-                    "clamp": false,
-                    "__collapse": true
-=======
                     "variable": "T0"
->>>>>>> Stashed changes
                   },
                   "id": "f93befc8-cb29-4690-8ad9-158579ac70df"
                 }
@@ -541,28 +467,7 @@
         ],
         "false": []
       },
-<<<<<<< Updated upstream
-      "id": "c047b75c-874c-45a4-b229-ac134fc35eb6"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
-        "x": {
-          "type": "number",
-          "value": 1
-        },
-        "y": {
-          "type": "number",
-          "value": 10
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "fd24dcf4-4e0f-4723-9e10-642fb035dfee"
-=======
       "id": "e1bbbb84-decb-4968-85a3-93ab4b284a34"
->>>>>>> Stashed changes
     }
   ],
   "startScript": [],
@@ -570,7 +475,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 8,
-  "y": 8,
+  "x": 9,
+  "y": 17,
   "_index": 0
 }

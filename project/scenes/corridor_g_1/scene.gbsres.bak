@@ -5,48 +5,17 @@
   "name": "Corridor_G_1",
   "backgroundId": "576e18d4-8501-4be8-841d-25efec1e5da6",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
   "x": 360,
   "y": 224,
-  "script": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "phew... arrive at \nuni 5 minutes \nearlier!",
-          "now i just need to\nfind the classroom\n...",
-          "304A huh?",
-          "have no idea where\nthat is, maybe i \nshould ask the \nreception...",
-          "SIGN: \nNorth - RECEPTION\nSOUTH - STAIR B\nWEST - STAIR G\nEAST - STAIR A"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "566e600d-7b7c-46e5-a96c-630b125105a7"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "37cfc1cb-7091-4f54-b962-dd90f4cddbdb",
+  "_index": 14,
+  "name": "Corridor_1_1",
+  "backgroundId": "995a6fd3-ad78-407f-8fc7-8de9b80b1ffb",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 60,
+  "y": 448,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

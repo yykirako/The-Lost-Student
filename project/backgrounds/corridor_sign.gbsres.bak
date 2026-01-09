@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5c21b0ed-5977-4166-8f41-d7179bd393d7",
+  "name": "corridor_sign",
+  "symbol": "bg_corridor_sign",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "corridor_sign.png",
+  "tileColors": ""
+}

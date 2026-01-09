@@ -1,16 +1,23 @@
 {
   "_resourceType": "scene",
   "id": "65813b3f-1501-400c-907d-5c2a3fc3aa9e",
-  "_index": 21,
+  "_index": 19,
   "name": "Dance_Society",
-  "backgroundId": "c4d9ed61-2b30-48b5-8f8f-6160e2d8823a",
-  "tilesetId": "2abaf511-0108-43df-9ec0-7fb6ed3951bf",
+<<<<<<< Updated upstream
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
   "width": 20,
   "height": 18,
+=======
+  "backgroundId": "c4d9ed61-2b30-48b5-8f8f-6160e2d8823a",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+>>>>>>> Stashed changes
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_25",
 <<<<<<< Updated upstream
@@ -32,6 +39,5 @@
 >>>>>>> Stashed changes
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "playerSpriteSheetId": "8a553c82-8d71-465d-9445-a9f77683a979"
+  "playerHit3Script": []
 }

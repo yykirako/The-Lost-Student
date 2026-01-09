@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3d26f771-c0cb-4325-9033-e95223d6684a",
+  "name": "reception_compact",
+  "symbol": "bg_reception_compact",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "reception_compact.png",
+  "tileColors": ""
+}

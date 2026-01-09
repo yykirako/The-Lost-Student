@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0ef0ec40-991e-49ab-a097-ba3878794bb6",
+  "name": "corridor_narrow",
+  "symbol": "tileset_corridor_narrow",
+  "width": 7,
+  "height": 15,
+  "imageWidth": 60,
+  "imageHeight": 120,
+  "filename": "corridor_narrow.png"
+}

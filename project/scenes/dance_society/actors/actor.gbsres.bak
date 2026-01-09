@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "6f1c5e41-8142-4d17-be7c-4c6a7483a410",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -17,8 +17,6 @@
   "symbol": "actor_1",
   "script": [
     {
-<<<<<<< Updated upstream
-=======
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -86,7 +84,6 @@
       "id": "c24c12ed-c3b9-4bbb-89d9-9ac894b982f0"
     },
     {
->>>>>>> Stashed changes
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -109,7 +106,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "98d898f1-590b-463d-8c88-c9dc3d15bb28"
     },
@@ -123,14 +120,9 @@
         },
         "y": {
           "type": "number",
-<<<<<<< Updated upstream
-          "value": 10
-        }
-=======
           "value": 12
         },
         "__collapse": true
->>>>>>> Stashed changes
       },
       "id": "cbac5f73-c0c5-4a6a-b29d-9b6ef29888c7"
     },
@@ -148,11 +140,7 @@
         "variable": "T0",
         "value": {
           "type": "number",
-<<<<<<< Updated upstream
-          "value": 0
-=======
           "value": 9
->>>>>>> Stashed changes
         },
         "__collapse": false
       },
@@ -162,34 +150,40 @@
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
-          "type": "lt",
+          "type": "gte",
           "valueA": {
             "type": "variable",
             "value": "T0"
           },
           "valueB": {
             "type": "number",
-            "value": 100
+            "value": 0
           }
-<<<<<<< Updated upstream
-        }
-=======
         },
         "__collapse": false,
         "__comment": false
->>>>>>> Stashed changes
       },
       "children": {
         "true": [
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "Match the step!\nW/A/S/D\nCountdown: %D1$T0$",
+              "text": "Match the step!\nW/A/S/D",
               "x": 1,
               "y": 1,
               "location": "background"
             },
             "id": "ecb754c4-8b80-4b16-9a79-f2700a2a66a5"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Countdown: %D1$T0$",
+              "x": 1,
+              "y": 4,
+              "location": "background"
+            },
+            "id": "67bb4ac3-9540-4ef4-820b-0429ffb00da7"
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -364,11 +358,11 @@
                     "sceneId": "ce578c63-b07a-4669-ad42-9213d3569cdf",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 12
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 14
                     },
                     "direction": "",
                     "fadeSpeed": "2",
@@ -386,19 +380,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-<<<<<<< Updated upstream
-                    "vectorX": "T0",
-                    "operation": "add",
-                    "other": "val",
-                    "vectorY": "L0",
-                    "value": 1,
-                    "minValue": "0",
-                    "maxValue": "32767",
-                    "clamp": false,
-                    "__collapse": true
-=======
                     "variable": "T0"
->>>>>>> Stashed changes
                   },
                   "id": "f93befc8-cb29-4690-8ad9-158579ac70df"
                 }
@@ -413,10 +395,6 @@
     {
       "command": "EVENT_IF",
       "args": {
-<<<<<<< Updated upstream
-        "time": 1,
-        "frames": 30
-=======
         "condition": {
           "type": "lte",
           "valueA": {
@@ -430,7 +408,6 @@
         },
         "__collapseElse": true,
         "__collapse": true
->>>>>>> Stashed changes
       },
       "children": {
         "true": [
@@ -488,26 +465,7 @@
             "id": "fd24dcf4-4e0f-4723-9e10-642fb035dfee"
           }
         ],
-<<<<<<< Updated upstream
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-=======
         "false": []
->>>>>>> Stashed changes
       },
       "id": "e1bbbb84-decb-4968-85a3-93ab4b284a34"
     }
@@ -517,12 +475,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-<<<<<<< Updated upstream
-  "x": 8,
-  "y": 8,
-=======
   "x": 9,
   "y": 17,
->>>>>>> Stashed changes
   "_index": 0
 }

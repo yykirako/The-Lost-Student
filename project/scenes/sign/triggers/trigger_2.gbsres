@@ -8,11 +8,7 @@
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
   "width": 1,
-<<<<<<< Updated upstream:project/scenes/entrance/triggers/trigger_2.gbsres
-  "height": 16,
-=======
   "height": 17,
->>>>>>> Stashed changes:project/scenes/sign/triggers/trigger_2.gbsres
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",

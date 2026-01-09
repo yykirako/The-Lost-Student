@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e68aedef-52c0-473b-9ab9-3fd976d7fe11",
+  "name": "wall tileset",
+  "symbol": "tileset_wall_tileset",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "wall tileset.png"
+}

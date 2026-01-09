@@ -4,42 +4,31 @@
   "_index": 0,
   "name": "Reception",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "backgroundId": "9d3071a7-a773-41e6-ba37-01e29c9f53ec",
+  "backgroundId": "6f5984e4-a2f9-4496-8f53-8d8f29e76c74",
   "tilesetId": "",
-  "width": 40,
-  "height": 17,
+  "width": 32,
+  "height": 32,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002a8+",
-=======
-  "backgroundId": "034f4ca5-c325-413d-8e15-c3696fe7e4c4",
-  "tilesetId": "",
-  "width": 40,
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 584,
 =======
   "backgroundId": "3d26f771-c0cb-4325-9033-e95223d6684a",
   "tilesetId": "7eeb10b1-c99b-4caf-a6f9-fdefed3ef685",
   "width": 20,
->>>>>>> Stashed changes
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-<<<<<<< Updated upstream
-  "collisions": "002d0+",
->>>>>>> Stashed changes
-  "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 168,
-  "y": 120,
-=======
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 864,
-  "y": 30,
 >>>>>>> Stashed changes
+  "y": 32,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],

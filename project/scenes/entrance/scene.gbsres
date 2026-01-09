@@ -3,28 +3,15 @@
   "id": "ed383300-d673-4645-89b7-7eb2107b0832",
   "_index": 23,
   "name": "Entrance",
-<<<<<<< Updated upstream
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
-=======
-  "backgroundId": "76c4d7b0-3522-42ca-8be9-01c2f3eaf8aa",
+  "backgroundId": "72ac3476-d21c-4d05-bcd9-ab9840c2e7be",
   "tilesetId": "",
   "width": 32,
   "height": 32,
->>>>>>> Stashed changes
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "00400+",
   "autoFadeSpeed": 1,
-<<<<<<< Updated upstream
-  "symbol": "scene_2",
-  "x": 584,
-  "y": 232,
-  "script": [],
-=======
   "symbol": "scene_30",
   "x": 72,
   "y": 48,
@@ -59,7 +46,6 @@
       "id": "d3a5acf6-f192-4393-91a2-bd9016f64dfe"
     }
   ],
->>>>>>> Stashed changes
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

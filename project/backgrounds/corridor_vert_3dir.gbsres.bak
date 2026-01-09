@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "995a6fd3-ad78-407f-8fc7-8de9b80b1ffb",
+  "name": "corridor_vert_3dir",
+  "symbol": "bg_corridor_vert_3dir",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "corridor_vert_3dir.png",
+  "tileColors": ""
+}

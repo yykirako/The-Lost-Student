@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "fd63c6a7-132f-4f18-9595-7e23dee998c9",
+  "name": "sign_lost",
+  "symbol": "tileset_sign_lost",
+  "width": 4,
+  "height": 3,
+  "imageWidth": 32,
+  "imageHeight": 24,
+  "filename": "sign_lost.png"
+}

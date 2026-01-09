@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b0cd132e-cd38-4862-b10e-fdb6258c7c5f",
+  "name": "corridor_hrz_2dir",
+  "symbol": "bg_corridor_hrz_2dir",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "corridor_hrz_2dir.png",
+  "tileColors": ""
+}

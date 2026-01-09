@@ -3,31 +3,14 @@
   "id": "2974dbee-f76a-436e-82e4-620c300a0b77",
   "_index": 8,
   "name": "304A",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-=======
-  "backgroundId": "1f6fa441-5565-4da9-acbd-335f1c725c13",
+  "backgroundId": "60ce5401-992a-442e-9667-aa1ab51cabdb",
   "tilesetId": "16a3566e-8b62-47f8-b397-eb59d8188f39",
   "width": 40,
->>>>>>> Stashed changes
   "height": 18,
-=======
-  "backgroundId": "17ee8510-cff5-4df9-84bd-6b496285ebf8",
-  "tilesetId": "16a3566e-8b62-47f8-b397-eb59d8188f39",
-  "width": 32,
-  "height": 32,
->>>>>>> Stashed changes
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-<<<<<<< Updated upstream
-  "collisions": "",
-=======
   "collisions": "002d0+",
->>>>>>> Stashed changes
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 824,

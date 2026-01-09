@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "89a35bdf-a2d9-4ed1-be6f-fa414b56c588",
+  "spriteSheetId": "f59a0bf6-9997-427e-bbf8-46e66ec4d08e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 2,
@@ -82,7 +82,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
+        "sceneId": "92c57af5-6773-4955-b9e0-e72a68c076b5",
         "x": {
           "type": "number",
           "value": 2

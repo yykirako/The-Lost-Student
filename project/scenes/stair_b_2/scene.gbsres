@@ -3,13 +3,8 @@
   "id": "f6d2f1b5-25bc-40a2-ad1b-4a33b411cc0d",
   "_index": 10,
   "name": "Stair_B_2",
-<<<<<<< Updated upstream
-  "backgroundId": "25110b57-eb39-4854-b60e-00ad96745cee",
-  "tilesetId": "",
-=======
-  "backgroundId": "cd4990a6-95de-47ea-a357-a18b13742b84",
+  "backgroundId": "48946557-8947-4377-9efe-c5c638588243",
   "tilesetId": "962fdf22-7838-41ad-b4e3-0f997cde5c89",
->>>>>>> Stashed changes
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",

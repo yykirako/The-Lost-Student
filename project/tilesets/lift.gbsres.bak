@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "eff9b5d9-03d4-4bb3-a3be-a8a9e0fcc022",
+  "name": "lift",
+  "symbol": "tileset_lift",
+  "width": 6,
+  "height": 9,
+  "imageWidth": 48,
+  "imageHeight": 72,
+  "filename": "lift.png"
+}

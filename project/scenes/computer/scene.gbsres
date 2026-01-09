@@ -3,7 +3,7 @@
   "id": "a0a2e1df-0523-45b8-bdf3-9c7c7f3e91a6",
   "_index": 22,
   "name": "Computer",
-  "backgroundId": "f2ac8e61-84e9-439e-99c3-6c4ba978ac0c",
+  "backgroundId": "a387b807-8478-4eea-9206-bea5f59d7aa4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -162,6 +162,6 @@
   ],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "bd096283-acdd-4d02-9bcd-4c48c3c73f4e",
+  "playerSpriteSheetId": "1af919d1-c422-499b-9272-53695f461cc0",
   "autoFadeEventCollapse": true
 }

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "6dc83e85-7e45-465a-b8a6-3a27ecbe9533",
+  "_index": 4,
+  "name": "Corridor_G_2",
+  "backgroundId": "2a00fc3d-b616-4508-b262-006c8feb6362",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002d0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 920,
+  "y": 232,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

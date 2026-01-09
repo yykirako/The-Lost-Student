@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "71cfc675-cf5a-4329-a016-6a5680ee255f",
+  "_index": 13,
+  "name": "Stair_G",
+  "backgroundId": "cd4990a6-95de-47ea-a357-a18b13742b84",
+  "tilesetId": "25585da2-66ed-4eb1-afcd-fe7c510f1ac6",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 360,
+  "y": 416,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

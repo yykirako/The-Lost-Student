@@ -8,7 +8,11 @@
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
   "width": 1,
+<<<<<<< Updated upstream:project/scenes/entrance/triggers/trigger_2.gbsres
+  "height": 16,
+=======
   "height": 17,
+>>>>>>> Stashed changes:project/scenes/sign/triggers/trigger_2.gbsres
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -16,11 +20,11 @@
         "sceneId": "6dc83e85-7e45-465a-b8a6-3a27ecbe9533",
         "x": {
           "type": "number",
-          "value": 7
+          "value": 3
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 9
         },
         "direction": "right",
         "fadeSpeed": "2"

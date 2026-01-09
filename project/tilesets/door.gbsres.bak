@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e9fda98d-eafe-45bc-8620-8711b61aa2ff",
+  "name": "door",
+  "symbol": "tileset_door",
+  "width": 5,
+  "height": 8,
+  "imageWidth": 40,
+  "imageHeight": 64,
+  "filename": "door.png"
+}

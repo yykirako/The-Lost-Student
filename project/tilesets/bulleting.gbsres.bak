@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "197f5e68-d57a-4a39-a3e6-6b0abd0cdf06",
+  "name": "bulleting",
+  "symbol": "tileset_bulleting",
+  "width": 6,
+  "height": 6,
+  "imageWidth": 48,
+  "imageHeight": 48,
+  "filename": "bulleting.png"
+}
