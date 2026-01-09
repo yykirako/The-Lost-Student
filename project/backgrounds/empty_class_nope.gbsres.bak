@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "76433b88-1fdb-425e-98c1-c805a36f0ff3",
+  "id": "cea510b1-4cec-4639-93af-55965aedf5e9",
   "name": "empty class nope",
   "symbol": "bg_empty_class_nope",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "empty class nope.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

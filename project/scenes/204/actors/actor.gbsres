@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "eddcdc5b-7510-470a-b908-166f55dd4c98",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
