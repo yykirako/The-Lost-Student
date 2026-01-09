@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 288,
   "filename": "corridor_vert_2dir.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

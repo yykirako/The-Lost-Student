@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3bb3067a-c682-49f8-a3ac-1ab427bf3dd9",
+  "spriteSheetId": "c402f100-468f-45a0-9f07-d981778bec1e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 3,
@@ -47,7 +47,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.6,
         "closeDelayFrames": 30,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": true
       },
       "id": "32be785f-457c-40fb-bb79-f09db7e1ed7c"
@@ -82,7 +82,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "cdcafd8f-5cba-4d11-a1af-fd1fdc90311c",
+        "sceneId": "92c57af5-6773-4955-b9e0-e72a68c076b5",
         "x": {
           "type": "number",
           "value": 3

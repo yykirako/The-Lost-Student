@@ -35,11 +35,11 @@
               "sceneId": "5775f425-86bb-44b0-a936-da83c8805a76",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 10
               },
               "y": {
                 "type": "number",
-                "value": 1
+                "value": 15
               },
               "direction": "",
               "fadeSpeed": "2"

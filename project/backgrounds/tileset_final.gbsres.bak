@@ -8,6 +8,5 @@
   "imageWidth": 256,
   "imageHeight": 256,
   "filename": "tileset final.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

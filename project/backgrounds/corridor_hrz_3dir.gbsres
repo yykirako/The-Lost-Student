@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 144,
   "filename": "corridor_hrz_3dir.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

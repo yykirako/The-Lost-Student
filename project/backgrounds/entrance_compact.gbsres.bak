@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "76c4d7b0-3522-42ca-8be9-01c2f3eaf8aa",
+  "id": "72ac3476-d21c-4d05-bcd9-ab9840c2e7be",
   "name": "entrance_compact",
   "symbol": "bg_entrance_compact",
   "width": 32,
@@ -8,6 +8,5 @@
   "imageWidth": 256,
   "imageHeight": 256,
   "filename": "entrance_compact.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }
